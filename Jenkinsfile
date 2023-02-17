@@ -17,7 +17,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deployment Successful from Jenkin Pipeline'
-                echos 'error detection'
             }
         }
     }
